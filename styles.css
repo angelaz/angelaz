@@ -1,21 +1,16 @@
-@font-face {
-    font-family: "Founders Grotesk Web";
-    src: url("type/FoundersGroteskWeb-Medium.woff2") format("woff2"), url("type/FoundersGroteskWeb-Medium.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-  }
-  
-  
   header {
     margin: 40px auto;
   }
   header h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    color: #0a4774;
+    color: #1A8874;
     font-size: 20px;
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
+  }
+
+  body {
+    font-family: "Montserrat", sans-serif;
   }
