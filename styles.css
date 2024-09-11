@@ -31,10 +31,11 @@ body {
 }
 #nav a:link, #nav a:visited {
 	color: #5C9EAD;
-	font-size: 12pt;
+	font-size: 24pt;
 	text-transform: lowercase;
 	padding: 8px 20px;
 	display: block;
+    text-decoration: none;
 }
 
 @media (min-width: 900px) {
