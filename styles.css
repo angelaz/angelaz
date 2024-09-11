@@ -42,20 +42,20 @@ table {
 }
 
 @media (min-width: 900px) {
-body {
-    margin: 0 auto 50px;
-}
+    body {
+        margin: 0 auto 50px;
+    }
 
-.content {
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.content .intro {
-    flex-basis: 60%;
-    order: 1;
-}
+    .content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .content .intro {
+        flex-basis: 60%;
+        order: 1;
+    }
 }
