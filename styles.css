@@ -33,12 +33,12 @@ table {
     width: 50%;
 }
 #nav a:link, #nav a:visited {
-	color: #5C9EAD;
-	font-size: 18pt;
+	color: #087CA7;
+	font-size: 16pt;
 	text-transform: lowercase;
 	display: block;
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 8px 15px;
 }
 
 @media (min-width: 900px) {
