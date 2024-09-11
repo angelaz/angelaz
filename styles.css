@@ -1,7 +1,7 @@
-  header {
+header {
     margin: 40px auto;
-  }
-  header h1 {
+}
+header h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #1A8874;
@@ -9,36 +9,53 @@
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
-  }
+}
 
-  body {
+body {
     font-family: "Montserrat", sans-serif;
-  }
+}
 
-  .content {
+.content {
     display: flex;
     flex-direction: column;
-        top: 0px;
-        left: 430px;
-        width: 720px;
-        padding: 0 20px 10px 20px;
-    }
-  }
-  @media (min-width: 900px) {
-    body {
-      margin: 0 auto 50px;
-    }
-  
-    .content {
-      flex-direction: row;
-      flex-wrap: wrap;
-      margin: 0 auto;
-      max-width: 1200px;
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-    .content .intro {
-      flex-basis: 60%;
-      order: 1;
-    }
-  }
+    top: 0px;
+    left: 430px;
+    width: 720px;
+    padding: 0 20px 10px 20px;
+}
+
+#navigation {
+	left: 432px;
+	top: 48px;
+	width: 508px;
+}
+#nav ul li {
+    float: left;
+}
+#nav a:link, #nav a:visited {
+    color: #222;
+    font-size: 12pt;
+    font-family: verdana;
+    text-transform: lowercase;
+    padding: 8px 20px;
+    display: block;
+}
+
+@media (min-width: 900px) {
+body {
+    margin: 0 auto 50px;
+}
+
+.content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.content .intro {
+    flex-basis: 60%;
+    order: 1;
+}
+}
