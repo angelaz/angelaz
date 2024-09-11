@@ -24,21 +24,9 @@ body {
     padding: 0 20px 10px 20px;
 }
 
-#navigation {
-	left: 432px;
-	top: 48px;
-	width: 508px;
-}
-#nav ul li {
-    float: left;
-}
-#nav a:link, #nav a:visited {
-    color: #222;
-    font-size: 12pt;
-    font-family: verdana;
-    text-transform: lowercase;
-    padding: 8px 20px;
-    display: block;
+#nav {
+	margin-left: auto;
+    margin-right: auto;
 }
 
 @media (min-width: 900px) {
