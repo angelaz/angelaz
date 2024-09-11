@@ -27,6 +27,14 @@ body {
 #nav {
 	margin-left: auto;
     margin-right: auto;
+    width: 50%;
+}
+#nav a:link, #nav a:visited {
+	color: #5C9EAD;
+	font-size: 12pt;
+	text-transform: lowercase;
+	padding: 8px 20px;
+	display: block;
 }
 
 @media (min-width: 900px) {
