@@ -38,6 +38,7 @@ table {
 	text-transform: lowercase;
 	display: block;
     text-decoration: none;
+    padding: 8px 20px;
 }
 
 @media (min-width: 900px) {
