@@ -1,5 +1,5 @@
 header {
-    margin: 40px auto;
+    margin: 40px 0 0 0;
 }
 header h1 {
     font-family: "Montserrat", sans-serif;
@@ -13,15 +13,34 @@ header h1 {
 
 body {
     font-family: "Montserrat", sans-serif;
+    font-size: 16pt;
 }
 
 .content {
     display: flex;
-    flex-direction: column;
-    top: 0px;
-    left: 430px;
-    width: 720px;
+    width: 80%;
     padding: 0 20px 10px 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.content :first-child {
+    background-color: hsl(189, 77%, 93%);
+    align-self: right;
+    width: 50%;
+    font-family: "Canela Web", "Baskerville", "Garamond", "Times New Roman", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    color: #0a4774;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    padding: 50px;
+}
+.content a {
+    text-decoration: none;
+    color: #29BCD6;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
 }
 
 table {
@@ -31,6 +50,7 @@ table {
 	margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding: 0 0 20px 0;
 }
 #nav a:link, #nav a:visited {
 	color: #087CA7;
