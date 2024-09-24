@@ -10,37 +10,64 @@ header h1 {
     text-align: center;
     text-transform: uppercase;
 }
-
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #1A8874;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-transform: uppercase;
+}
+b {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600; 
+    color: #23640D;
+}
+li {
+    margin: 10px 0;
+}
 body {
     font-family: "Montserrat", sans-serif;
     font-size: 16pt;
 }
-
 .content {
     display: flex;
     width: 80%;
     padding: 0 20px 10px 20px;
     align-items: flex-start;
-    justify-content: space-between;
-}
-.content :first-child {
-    background-color: hsl(189, 77%, 93%);
-    align-self: right;
-    width: 50%;
+    justify-content:space-evenly;
+    align-self: left;
     font-family: "Lora", serif;
+    color: #2D5D7B;
+    font-size: 18px;
+}
+.content div {
+    width: 40%;
+}
+.content div:first-of-type {
+    background-color: hsl(189, 77%, 93%);
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
-    color: #0a4774;
     font-size: 26px;
     letter-spacing: 0.5px;
     padding: 50px;
 }
-.content a {
+.content div:first-of-type a {
     text-decoration: none;
     color: #29BCD6;
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
+}
+.content a {
+    text-decoration: none;
+    color: #29BCD6;
+}
+.content a:hover {
+    text-decoration: none;
+    color: #42858C;
 }
 
 table {
