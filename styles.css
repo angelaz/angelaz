@@ -37,11 +37,12 @@ body {
     width: 80%;
     padding: 0 20px 10px 20px;
     align-items: flex-start;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-self: left;
     font-family: "Lora", serif;
     color: #2D5D7B;
     font-size: 18px;
+    margin: auto;
 }
 .content div {
     width: 40%;
@@ -88,13 +89,13 @@ table {
     padding: 8px 15px;
 }
 
-@media (min-width: 900px) {
+@media (max-width: 600px) {
     body {
         margin: 0 auto 50px;
     }
 
     .content {
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         margin: 0 auto;
         max-width: 1200px;
